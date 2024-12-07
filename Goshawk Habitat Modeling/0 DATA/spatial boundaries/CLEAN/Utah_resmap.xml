@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:citoterms="http://purl.org/spar/cito/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:ore="http://www.openarchives.org/ore/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs1="http://www.w3.org/2001/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/e62c57ef9bc547fbbe8a64cddffca24b/data/contents/data/spatial_data/CLEAN/State_Bound/Utah_meta.xml">
+    <citoterms:documents>http://www.hydroshare.org/resource/e62c57ef9bc547fbbe8a64cddffca24b/data/contents/data/spatial_data/CLEAN/State_Bound/Utah_resmap.xml#aggregation</citoterms:documents>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/e62c57ef9bc547fbbe8a64cddffca24b/data/contents/data/spatial_data/CLEAN/State_Bound/Utah_resmap.xml#aggregation</ore:isAggregatedBy>
+    <dc:format>application/rdf+xml</dc:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/e62c57ef9bc547fbbe8a64cddffca24b/data/contents/data/spatial_data/CLEAN/State_Bound/Utah.prj">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/e62c57ef9bc547fbbe8a64cddffca24b/data/contents/data/spatial_data/CLEAN/State_Bound/Utah_resmap.xml#aggregation</ore:isAggregatedBy>
+    <dc:format>application/prj</dc:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://foresite-toolkit.googlecode.com/#pythonAgent">
+    <foaf:name>Foresite Toolkit (Python)</foaf:name>
+    <foaf:mbox>foresite@googlegroups.com</foaf:mbox>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/e62c57ef9bc547fbbe8a64cddffca24b/data/contents/data/spatial_data/CLEAN/State_Bound/Utah.shp">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/e62c57ef9bc547fbbe8a64cddffca24b/data/contents/data/spatial_data/CLEAN/State_Bound/Utah_resmap.xml#aggregation</ore:isAggregatedBy>
+    <dc:format>application/x-qgis</dc:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/e62c57ef9bc547fbbe8a64cddffca24b/data/contents/data/spatial_data/CLEAN/State_Bound/Utah_resmap.xml#aggregation">
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/e62c57ef9bc547fbbe8a64cddffca24b/data/contents/data/spatial_data/CLEAN/State_Bound/Utah.dbf"/>
+    <ore:isDescribedBy>http://www.hydroshare.org/resource/e62c57ef9bc547fbbe8a64cddffca24b/data/contents/data/spatial_data/CLEAN/State_Bound/Utah_resmap.xml</ore:isDescribedBy>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/e62c57ef9bc547fbbe8a64cddffca24b/data/contents/data/spatial_data/CLEAN/State_Bound/Utah_meta.xml"/>
+        <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/e62c57ef9bc547fbbe8a64cddffca24b/data/contents/data/spatial_data/CLEAN/State_Bound/Utah.prj"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/e62c57ef9bc547fbbe8a64cddffca24b/data/contents/data/spatial_data/CLEAN/State_Bound/Utah.shx"/>
+    <citoterms:isDocumentedBy>http://www.hydroshare.org/resource/e62c57ef9bc547fbbe8a64cddffca24b/data/contents/data/spatial_data/CLEAN/State_Bound/Utah_meta.xml</citoterms:isDocumentedBy>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/e62c57ef9bc547fbbe8a64cddffca24b/data/contents/data/spatial_data/CLEAN/State_Bound/Utah.cpg"/>
+    <dcterms:type rdf:resource="http://www.hydroshare.org/terms/GeographicFeatureAggregation"/>
+    <ore:aggregates rdf:resource="http://www.hydroshare.org/resource/e62c57ef9bc547fbbe8a64cddffca24b/data/contents/data/spatial_data/CLEAN/State_Bound/Utah.shp"/>
+    <dc:title>Utah</dc:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/e62c57ef9bc547fbbe8a64cddffca24b/data/contents/data/spatial_data/CLEAN/State_Bound/Utah_resmap.xml">
+    <dcterms:created>2023-03-27T20:44:20Z</dcterms:created>
+    <dcterms:creator rdf:resource="http://foresite-toolkit.googlecode.com/#pythonAgent"/>
+    <ore:describes rdf:resource="http://www.hydroshare.org/resource/e62c57ef9bc547fbbe8a64cddffca24b/data/contents/data/spatial_data/CLEAN/State_Bound/Utah_resmap.xml#aggregation"/>
+    <dcterms:modified>2023-03-27T20:44:20Z</dcterms:modified>
+    <dc:format>application/rdf+xml</dc:format>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/ResourceMap"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/e62c57ef9bc547fbbe8a64cddffca24b/data/contents/data/spatial_data/CLEAN/State_Bound/Utah.cpg">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/e62c57ef9bc547fbbe8a64cddffca24b/data/contents/data/spatial_data/CLEAN/State_Bound/Utah_resmap.xml#aggregation</ore:isAggregatedBy>
+    <dc:format>application/cpg</dc:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openarchives.org/ore/terms/ResourceMap">
+    <rdfs1:label>ResourceMap</rdfs1:label>
+    <rdfs1:isDefinedBy>http://www.openarchives.org/ore/terms/</rdfs1:isDefinedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/e62c57ef9bc547fbbe8a64cddffca24b/data/contents/data/spatial_data/CLEAN/State_Bound/Utah.shx">
+    <dc:format>application/x-qgis</dc:format>
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/e62c57ef9bc547fbbe8a64cddffca24b/data/contents/data/spatial_data/CLEAN/State_Bound/Utah_resmap.xml#aggregation</ore:isAggregatedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/resource/e62c57ef9bc547fbbe8a64cddffca24b/data/contents/data/spatial_data/CLEAN/State_Bound/Utah.dbf">
+    <ore:isAggregatedBy>http://www.hydroshare.org/resource/e62c57ef9bc547fbbe8a64cddffca24b/data/contents/data/spatial_data/CLEAN/State_Bound/Utah_resmap.xml#aggregation</ore:isAggregatedBy>
+    <dc:format>application/dbf</dc:format>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.hydroshare.org/terms/GeographicFeatureAggregation">
+    <rdfs1:label>Geographic Feature Aggregation</rdfs1:label>
+    <rdfs1:isDefinedBy>http://www.hydroshare.org/terms</rdfs1:isDefinedBy>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.openarchives.org/ore/terms/Aggregation">
+    <rdfs1:label>Aggregation</rdfs1:label>
+    <rdfs1:isDefinedBy>http://www.openarchives.org/ore/terms/</rdfs1:isDefinedBy>
+  </rdf:Description>
+</rdf:RDF>
