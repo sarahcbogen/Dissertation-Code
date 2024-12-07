@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:hsterms="https://www.hydroshare.org/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://www.hydroshare.org/terms/GeographicFeatureAggregation">
+    <rdfs:isDefinedBy rdf:resource="https://www.hydroshare.org/terms/"/>
+    <rdfs:label>Geographic Feature Content: The multiple files that are part of a geographic shapefile</rdfs:label>
+  </rdf:Description>
+  <hsterms:GeographicFeatureAggregation rdf:about="http://www.hydroshare.org/resource/e62c57ef9bc547fbbe8a64cddffca24b/data/contents/data/spatial_data/CLEAN/BOUNDARIES/UtahForests_resmap.xml#aggregation">
+    <hsterms:FieldInformation>
+      <rdf:Description>
+        <hsterms:fieldWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</hsterms:fieldWidth>
+        <hsterms:fieldTypeCode>4</hsterms:fieldTypeCode>
+        <hsterms:fieldType>String</hsterms:fieldType>
+        <hsterms:fieldName>ADMINFORES</hsterms:fieldName>
+        <hsterms:fieldPrecision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hsterms:fieldPrecision>
+      </rdf:Description>
+    </hsterms:FieldInformation>
+    <hsterms:GeometryInformation>
+      <rdf:Description>
+        <hsterms:featureCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</hsterms:featureCount>
+        <hsterms:geometryType>MULTIPOLYGON</hsterms:geometryType>
+      </rdf:Description>
+    </hsterms:GeometryInformation>
+    <dc:language>eng</dc:language>
+    <hsterms:FieldInformation>
+      <rdf:Description>
+        <hsterms:fieldType>Real</hsterms:fieldType>
+        <hsterms:fieldWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</hsterms:fieldWidth>
+        <hsterms:fieldName>SHAPE_AREA</hsterms:fieldName>
+        <hsterms:fieldTypeCode>2</hsterms:fieldTypeCode>
+        <hsterms:fieldPrecision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</hsterms:fieldPrecision>
+      </rdf:Description>
+    </hsterms:FieldInformation>
+    <dc:title>UtahForests</dc:title>
+    <hsterms:spatialReference>
+      <hsterms:box>
+        <rdf:value>northlimit=2217799.9728087694; southlimit=1702997.519589483; westlimit=-1570747.6264265392; eastlimit=-1102306.914918853; projection_string=PROJCS["unknown",
+    GEOGCS["GCS_unknown",
+        DATUM["Unknown_based_on_GRS80_ellipsoid",
+            SPHEROID["GRS_1980",6378137.0,298.257222101]],
+        PRIMEM["Greenwich",0.0],
+        UNIT["Degree",0.0174532925199433]],
+    PROJECTION["Albers_Conic_Equal_Area"],
+    PARAMETER["False_Easting",0.0],
+    PARAMETER["False_Northing",0.0],
+    PARAMETER["longitude_of_center",-96.0],
+    PARAMETER["Standard_Parallel_1",29.5],
+    PARAMETER["Standard_Parallel_2",45.5],
+    PARAMETER["latitude_of_center",23.0],
+    UNIT["Meter",1.0]]; projection_name=unknown; datum=Unknown_based_on_GRS80_ellipsoid; units=Meter</rdf:value>
+      </hsterms:box>
+    </hsterms:spatialReference>
+    <dc:rights>
+      <rdf:Description>
+        <hsterms:URL rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+        <hsterms:rightsStatement>This resource is shared under the Creative Commons Attribution CC BY.</hsterms:rightsStatement>
+      </rdf:Description>
+    </dc:rights>
+    <hsterms:FieldInformation>
+      <rdf:Description>
+        <hsterms:fieldWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</hsterms:fieldWidth>
+        <hsterms:fieldType>String</hsterms:fieldType>
+        <hsterms:fieldName>FORESTORGC</hsterms:fieldName>
+        <hsterms:fieldPrecision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hsterms:fieldPrecision>
+        <hsterms:fieldTypeCode>4</hsterms:fieldTypeCode>
+      </rdf:Description>
+    </hsterms:FieldInformation>
+    <hsterms:FieldInformation>
+      <rdf:Description>
+        <hsterms:fieldWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</hsterms:fieldWidth>
+        <hsterms:fieldTypeCode>4</hsterms:fieldTypeCode>
+        <hsterms:fieldType>String</hsterms:fieldType>
+        <hsterms:fieldName>FORESTNUMB</hsterms:fieldName>
+        <hsterms:fieldPrecision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hsterms:fieldPrecision>
+      </rdf:Description>
+    </hsterms:FieldInformation>
+    <hsterms:FieldInformation>
+      <rdf:Description>
+        <hsterms:fieldType>Real</hsterms:fieldType>
+        <hsterms:fieldWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</hsterms:fieldWidth>
+        <hsterms:fieldTypeCode>2</hsterms:fieldTypeCode>
+        <hsterms:fieldName>GIS_ACRES</hsterms:fieldName>
+        <hsterms:fieldPrecision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</hsterms:fieldPrecision>
+      </rdf:Description>
+    </hsterms:FieldInformation>
+    <dc:coverage>
+      <dcterms:box>
+        <rdf:value>westlimit=-115.09685879747327; northlimit=41.54003564339101; eastlimit=-108.65939176620638; southlimit=37.702396676002806; projection=WGS 84 EPSG:4326; units=Decimal degrees</rdf:value>
+      </dcterms:box>
+    </dc:coverage>
+    <hsterms:FieldInformation>
+      <rdf:Description>
+        <hsterms:fieldPrecision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hsterms:fieldPrecision>
+        <hsterms:fieldType>String</hsterms:fieldType>
+        <hsterms:fieldTypeCode>4</hsterms:fieldTypeCode>
+        <hsterms:fieldWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</hsterms:fieldWidth>
+        <hsterms:fieldName>REGION</hsterms:fieldName>
+      </rdf:Description>
+    </hsterms:FieldInformation>
+    <hsterms:FieldInformation>
+      <rdf:Description>
+        <hsterms:fieldType>String</hsterms:fieldType>
+        <hsterms:fieldTypeCode>4</hsterms:fieldTypeCode>
+        <hsterms:fieldPrecision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</hsterms:fieldPrecision>
+        <hsterms:fieldWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</hsterms:fieldWidth>
+        <hsterms:fieldName>FORESTNAME</hsterms:fieldName>
+      </rdf:Description>
+    </hsterms:FieldInformation>
+    <hsterms:FieldInformation>
+      <rdf:Description>
+        <hsterms:fieldType>Real</hsterms:fieldType>
+        <hsterms:fieldName>SHAPE_LEN</hsterms:fieldName>
+        <hsterms:fieldTypeCode>2</hsterms:fieldTypeCode>
+        <hsterms:fieldPrecision rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</hsterms:fieldPrecision>
+        <hsterms:fieldWidth rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24</hsterms:fieldWidth>
+      </rdf:Description>
+    </hsterms:FieldInformation>
+    <dc:type rdf:resource="https://www.hydroshare.org/terms/GeographicFeatureAggregation"/>
+  </hsterms:GeographicFeatureAggregation>
+</rdf:RDF>
