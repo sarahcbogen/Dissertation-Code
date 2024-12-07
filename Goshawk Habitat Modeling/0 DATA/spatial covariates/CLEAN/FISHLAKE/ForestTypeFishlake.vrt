@@ -1,0 +1,24 @@
+<VRTDataset rasterXSize="486" rasterYSize="776">
+  <SRS>PROJCS["unnamed",GEOGCS["GRS 1980(IUGG, 1980)",DATUM["unknown",SPHEROID["GRS80",6378137,298.257222101],TOWGS84[0,0,0,0,0,0,0]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433]],PROJECTION["Albers_Conic_Equal_Area"],PARAMETER["standard_parallel_1",29.5],PARAMETER["standard_parallel_2",45.5],PARAMETER["latitude_of_center",23],PARAMETER["longitude_of_center",-96],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]</SRS>
+  <GeoTransform> -1.4342136080207899e+06,  2.5000000000000000e+02,  0.0000000000000000e+00,  1.9558204646949677e+06,  0.0000000000000000e+00, -2.5000000000000031e+02</GeoTransform>
+  <Metadata>
+    <MDI key="AREA_OR_POINT">Area</MDI>
+  </Metadata>
+  <VRTRasterBand dataType="Float32" band="1">
+    <Metadata>
+      <MDI key="STATISTICS_MAXIMUM">955</MDI>
+      <MDI key="STATISTICS_MEAN">195.69251145475</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_STDDEV">302.51434254513</MDI>
+    </Metadata>
+    <NoDataValue>-3.4e+38</NoDataValue>
+    <ColorInterp>Gray</ColorInterp>
+    <SimpleSource>
+      <SourceFilename relativeToVRT="1">ForestTypeFishlake.tif</SourceFilename>
+      <SourceBand>1</SourceBand>
+      <SourceProperties RasterXSize="486" RasterYSize="776" DataType="Float32" BlockXSize="486" BlockYSize="4" />
+      <SrcRect xOff="0" yOff="0" xSize="486" ySize="776" />
+      <DstRect xOff="0" yOff="0" xSize="486" ySize="776" />
+    </SimpleSource>
+  </VRTRasterBand>
+</VRTDataset>

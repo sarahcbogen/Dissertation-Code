@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:hsterms="https://www.hydroshare.org/terms/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <hsterms:GeographicRasterAggregation rdf:about="http://www.hydroshare.org/resource/e62c57ef9bc547fbbe8a64cddffca24b/data/contents/data/spatial_data/CLEAN/FISHLAKE/StandAgeFishlake_resmap.xml#aggregation">
+    <dc:coverage>
+      <dcterms:box>
+        <rdf:value>northlimit=39.65643032572409; southlimit=37.76821954336182; eastlimit=-111.14529923617984; westlimit=-112.91380410462905; units=Decimal degrees; projection=WGS 84 EPSG:4326</rdf:value>
+      </dcterms:box>
+    </dc:coverage>
+    <dc:rights>
+      <rdf:Description>
+        <hsterms:rightsStatement>This resource is shared under the Creative Commons Attribution CC BY.</hsterms:rightsStatement>
+        <hsterms:URL rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+      </rdf:Description>
+    </dc:rights>
+    <hsterms:spatialReference>
+      <hsterms:box>
+        <rdf:value>northlimit=1955820.4646949677; southlimit=1761820.4646949675; eastlimit=-1312713.60802079; westlimit=-1434213.60802079; projection=unnamed; units=meter; projection_string=PROJCS["unnamed",GEOGCS["GRS 1980(IUGG, 1980)",DATUM["unknown",SPHEROID["GRS80",6378137,298.257222101],TOWGS84[0,0,0,0,0,0,0]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433]],PROJECTION["Albers_Conic_Equal_Area"],PARAMETER["standard_parallel_1",29.5],PARAMETER["standard_parallel_2",45.5],PARAMETER["latitude_of_center",23],PARAMETER["longitude_of_center",-96],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]]]; datum=unknown</rdf:value>
+      </hsterms:box>
+    </hsterms:spatialReference>
+    <hsterms:BandInformation>
+      <rdf:Description>
+        <hsterms:variableName></hsterms:variableName>
+        <hsterms:name>Band_1</hsterms:name>
+        <hsterms:variableUnit></hsterms:variableUnit>
+        <hsterms:noDataValue>-3.4e+38</hsterms:noDataValue>
+        <hsterms:minimumValue>1.0</hsterms:minimumValue>
+        <hsterms:maximumValue>449.1559753417969</hsterms:maximumValue>
+      </rdf:Description>
+    </hsterms:BandInformation>
+    <hsterms:CellInformation>
+      <rdf:Description>
+        <hsterms:rows rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">776</hsterms:rows>
+        <hsterms:cellDataType>Float32</hsterms:cellDataType>
+        <hsterms:cellSizeXValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">250.0</hsterms:cellSizeXValue>
+        <hsterms:name>StandAgeFishlake.vrt</hsterms:name>
+        <hsterms:cellSizeYValue rdf:datatype="http://www.w3.org/2001/XMLSchema#double">250.0000000000003</hsterms:cellSizeYValue>
+        <hsterms:columns rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">486</hsterms:columns>
+      </rdf:Description>
+    </hsterms:CellInformation>
+    <dc:title>StandAgeFishlake</dc:title>
+    <dc:language>eng</dc:language>
+    <dc:type rdf:resource="https://www.hydroshare.org/terms/GeographicRasterAggregation"/>
+  </hsterms:GeographicRasterAggregation>
+  <rdf:Description rdf:about="http://www.hydroshare.org/terms/GeographicRasterAggregation">
+    <rdfs:label>Geographic Raster Content: A geographic grid represented by a virtual raster tile (.vrt) file and one or more geotiff (.tif) files</rdfs:label>
+    <rdfs:isDefinedBy rdf:resource="https://www.hydroshare.org/terms/"/>
+  </rdf:Description>
+</rdf:RDF>
